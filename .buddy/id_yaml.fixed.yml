@@ -1,0 +1,6 @@
+- pipeline: id_yaml
+  refs:
+  - refs/heads/master
+  events:
+  - type: WEBHOOK
+  fail_on_prepare_env_warning: true
